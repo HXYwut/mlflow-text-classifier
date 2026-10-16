@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# MLflow
+mlruns/
+mlartifacts/
+*.db
+
+# DVC (actual data stays out of git; only .dvc pointer files are committed)
+data/raw/v1/
+data/raw/v2/
+!data/raw/.gitkeep
+.dvc/cache/
+.dvc/tmp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Pytest
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml

@@ -1,0 +1,40 @@
+# VCS
+.git
+.github
+.gitignore
+
+# Data (fetched/versioned separately, not needed at inference time)
+data/
+.dvc/
+.dvc.tmp
+
+# MLflow run logs & artifacts
+mlruns/
+mlartifacts/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Docs / notes
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
