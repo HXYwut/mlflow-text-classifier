@@ -1,7 +1,6 @@
 """Tests for the model-loading wrapper. We don't ship a trained artifact in
 CI, so we exercise the wrapper logic with a fake model."""
 
-from pathlib import Path
 
 import joblib
 import numpy as np
