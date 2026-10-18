@@ -64,3 +64,5 @@ Dockerfile
 
 See `DEPLOYMENT.md` for staging/prod details and `ml/README_*.md` for the
 data and experiment write-ups.
+
+Demo note: PR workflow feature -> dev -> staging -> main.
